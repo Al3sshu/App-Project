@@ -40,5 +40,9 @@ CREATE TABLE IF NOT EXISTS colorimetry(
     warm_colors TEXT NOT NULL,
     response TEXT NOT NULL
 
+);
+
+CREATE TABLE IF NOT EXISTS  results(
+    
 )
 
