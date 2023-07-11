@@ -1,6 +1,6 @@
 const { hash, serialize } = require('simple-stateless-auth-library')
 const errors = require('../../misc/errors')
-const { selectUser } = require('../../models/auth')
+const { selectUser } = require('../../models/queries')
 
 module.exports = (db) => async (req, res, next) => {
     const { email, password } = req.body
