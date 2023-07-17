@@ -1,0 +1,22 @@
+.menu{
+    background-color:  turquoise;
+    text-align: center;
+}
+
+.navbar{
+    background-color: orange;
+}
+
+
+.lista-nav{
+    text-align: start;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    
+}
+
+.click{
+    text-align: center;
+    
+}

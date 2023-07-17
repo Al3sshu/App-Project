@@ -17,9 +17,10 @@ module.exports = (db) => {
             AND color = ${parameters.color}
             AND eyes = ${parameters.eyes}
             AND skin_stone = ${parameters.skin_stone}
-            AND cold_colors = ${parameters.cold_colors}
-            AND warm_colors = ${parameters.warm_colors}
+            AND colors_style = ${parameters.colors_style}
         `)
+
+        console.log(result)
 
         res.status(200).json({
             status: 'success',

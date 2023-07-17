@@ -23,9 +23,8 @@ CREATE TABLE IF NOT EXISTS style(
     hair TEXT NOT NULL, 
     color TEXT NOT NULL,
     eyes TEXT NOT NULL, 
-    skin_tone TEXT NOT NULL,
-    cold_colors TEXT NOT NULL, 
-    warm_colors TEXT NOT NULL,
+    skin_stone TEXT NOT NULL,
+    colors_style TEXT NOT NULL, 
     response TEXT NOT NULL
 );
 
