@@ -1,0 +1,85 @@
+h2{
+   text-align: center;
+   border: 5px solid black;
+}
+
+h1{
+    text-align: center;
+    border: 5px;
+    
+}
+
+.creaction{
+    display: flex;
+    justify-content: center;
+    margin: 2px solid black; 
+
+}
+
+
+
+.def1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+.def2{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.img-casual{
+    width: 150px;
+    margin-left: 111px;
+
+}
+
+.img-ejecutivo{
+    width: 150px;
+    margin-right: 125px;
+    margin-left: 111px;
+}
+
+.img-bohemio{
+    width: 150px;
+    margin-left: 111px;
+}
+
+.img-minimalista{
+    width: 150px;
+    margin-left: 111px;
+    margin-right: 125px;
+}
+
+.img-over{
+    width: 150px;
+    margin-left: 111px;
+}
+
+.img-lingerie{
+    width: 150px;
+    margin-left: 111px;
+    margin-right: 125px;
+}
+
+.articulo{
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.content {
+    border: 3px solid orange;
+    display:flex;
+    gap:85px;
+}
+.conteiner{
+    border: 3px solid yellow;
+    display:flex;
+    gap:85px;
+    flex-direction: row-reverse;
+}
