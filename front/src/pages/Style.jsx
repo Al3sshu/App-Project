@@ -134,17 +134,19 @@ function Style() {
                             <option value="ciudad">Ciudad</option>
                             <option value="pueblo">Pueblo</option>
                         </select> <br></br></li>
-                        
+
                     <li className="ask">¿Con que colores te indentificas?<br></br>
                     <select name="lugar" id="lugar">
-                            <option value="invierno">Negros, azul oscuro, </option>
-                            <option value="primavera">Beige, blanco</option>
-                            <option value="otoño">Rojos, naranjas brillantes</option>
-                            <option value="verano">Colores pasteles, lilas, azules , rosas</option>
+                            <option value="invierno">Colores frios, oscuros, brillantes, azul, verdes</option>
+                            <option value="primavera"> Colores calidos,brillantes dorados, amarillos,  </option>
+                            <option value="otoño"> Colores calidos,oscuros, suaves, marrones, naranjas, beige...</option>
+                            <option value="verano">Colores frios, claros, suaves, lilas, azules , rosas...</option>
                             
-                        </select > <br></br></li>
-
-                </li>
+                            
+                        </select > <br></br></li> <br></br>
+                        <button>ENVIAR</button>
+                         </li><br></br>
+                         
             </ul></></>
     )
 }

@@ -11,8 +11,10 @@ h1{
 
 .creaction{
     display: flex;
-    justify-content: center;
-    margin: 2px solid black; 
+    
+    border: 2px solid black; 
+    width: fit-content;
+    margin-left: 280px;
 
 }
 
