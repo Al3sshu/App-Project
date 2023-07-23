@@ -74,6 +74,8 @@ function Colorimetria() {
                     </tr>
                     
                 </table>
+                <img className='img-invierno' src='invierno.jpg'></img>
+                    <img className='img-verano' src='verano.jpg'></img>
 
                 <div>
                     <h1>Paleta calida</h1>
@@ -114,6 +116,8 @@ function Colorimetria() {
                     </tr>
 
                 </table>
+                <img className='img-otono' src='otoño.jpg'></img>
+                <img className='img-primavera' src='primavera.jpg'></img>
             </body>
 
         </>
