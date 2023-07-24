@@ -1,0 +1,13 @@
+.img-rostro{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    
+}
+
+p{
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+}

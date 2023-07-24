@@ -1,4 +1,5 @@
 import './cabecera.css';
+
 function Menu() {
 
     return(
@@ -14,9 +15,9 @@ function Menu() {
 
         <nav className='navbar'>
             <ul>
-                <li className='lista-nav'> Colorimetria</li>
-                <li className='lista-nav'>Estilos</li>
-                <li className='lista-nav'>Rostro</li>
+                <a href='./colorimetria'><li className='lista-nav' > Colorimetria</li></a>
+               <a href='./style'> <li className='lista-nav'>Estilos</li></a>
+               <a href='./rostro'> <li className='lista-nav'>Rostro</li></a>
             </ul>
 
         </nav>

@@ -18,7 +18,7 @@ function Colorimetria() {
 
             <section className="caja1">
                 <h1>Las paletas segun tu estacion</h1>
-                <p>Cada estacion presenta un rasgo distinto de colores.<br></br>
+                <p className='content1'>Cada estacion presenta un rasgo distinto de colores.<br></br>
                     Se puede clasificar en colores frios y colores calidos, pero en esas hay variables <br></br>
                     entonces distinguiendo entre si, los colores frios puedes ser oscuros o claros,<br></br> y en los colores calidos pasa lo mismo <br></br>
                 </p>
@@ -50,7 +50,7 @@ function Colorimetria() {
 
 
                 </div>
-                <table>
+                <table className='tabla'>
                     <tr>
                         <th>INVIERNO</th>
                         <th>VERANO</th>
@@ -91,7 +91,7 @@ function Colorimetria() {
                     <p>Estas personas tiene ojos azules, verdes, ambar.Su cabello son mas rubias que se van oscureciendo con la edad,<br></br>
                         pero mantiene su tono dorado, castaños. El tono de piel es clara o de melocoton</p>
                 </div>
-                <table>
+                <table className='tabla'>
                     <tr>
                         <th>OTOÑO</th>
                         <th>PRIMAVERA</th>
@@ -116,7 +116,7 @@ function Colorimetria() {
                     </tr>
 
                 </table>
-                <img className='img-otono' src='otoño.jpg'></img>
+                <img className='img-otoño' src='otoño.jpg'></img>
                 <img className='img-primavera' src='primavera.jpg'></img>
             </body>
 
