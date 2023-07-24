@@ -118,6 +118,10 @@ function Colorimetria() {
                 </table>
                 <img className='img-otoño' src='otoño.jpg'></img>
                 <img className='img-primavera' src='primavera.jpg'></img>
+
+
+                <h1> Tono de piel </h1>
+                <p></p>
             </body>
 
         </>

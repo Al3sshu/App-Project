@@ -7,17 +7,15 @@ function Menu() {
         <h1 className='cabecera-h1'> Menu</h1>
         <a href='#' className='login'>
             Subcribete
-        </a>
+        </a> 
 
-        <button className='click'>
-            Click
-        </button>
+       
 
         <nav className='navbar'>
             <ul>
-                <a href='./colorimetria'><li className='lista-nav' > Colorimetria</li></a>
-               <a href='./style'> <li className='lista-nav'>Estilos</li></a>
-               <a href='./rostro'> <li className='lista-nav'>Rostro</li></a>
+                <a href='./colorimetria' className='lista-nav' > Colorimetria</a> <br></br>
+               <a href='./style' className='lista-nav'>Estilos</a><br></br>
+               <a href='./rostro' className='lista-nav'>Rostro</a>
             </ul>
 
         </nav>

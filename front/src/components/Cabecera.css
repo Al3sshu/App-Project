@@ -9,10 +9,9 @@
 
 
 .lista-nav{
-    text-align: start;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
+    text-align: center;
+    
+   
    
     
     
@@ -27,3 +26,4 @@ a{
     
 text-decoration: none;
 }
+
